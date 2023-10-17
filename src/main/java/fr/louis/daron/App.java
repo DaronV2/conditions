@@ -22,6 +22,7 @@ public class App {
             System.out.println("Désolé, vous avez effectué " + nbVente + " ventes,il vous en manque "+ reste +" pour avoir les primes. Votre salaire, sans prime est de : "+ salaireInit +"." );
         }
         clavier.close();
+        System.out.println("Fini !");
     }
     
 }
